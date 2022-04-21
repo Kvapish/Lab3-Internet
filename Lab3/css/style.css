@@ -1,0 +1,55 @@
+
+p {
+    font-family: "Tahoma";
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+.overlay{
+    position: relative;
+    display: none;
+}
+.overlay_on{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+ .box{
+    padding: 20px;
+    margin: 120px;
+    width: 300px;
+    border-radius: 10px;
+    display: none;
+    position: relative;
+    background-color: white;
+}
+.box > p{
+    color:black ;
+    padding-top: 70px ;
+}
+.openbox{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 175px;
+    background-color:white;
+}
+.btn {
+    display: inline-block;
+    padding: 20px 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
